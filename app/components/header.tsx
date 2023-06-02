@@ -6,7 +6,7 @@ const useStyles = createStyles((theme) => ({
   hero: {
     position: 'relative',
     backgroundImage:
-      'url(https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1313&q=80)',
+      'url(https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: "100vh",

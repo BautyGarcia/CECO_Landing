@@ -1,7 +1,7 @@
 "use client";
 
 import { Carousel } from '@mantine/carousel';
-import { createStyles, Paper, Text, Title, Button, useMantineTheme, rem, getStylesRef } from '@mantine/core';
+import { createStyles, Paper, Title, rem, getStylesRef } from '@mantine/core';
 
 const useStyles = createStyles((theme) => ({
     card: {
@@ -12,6 +12,7 @@ const useStyles = createStyles((theme) => ({
         alignItems: 'flex-start',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        margin: theme.spacing.xl,
     },
 
     title: {
@@ -35,13 +36,14 @@ const useStyles = createStyles((theme) => ({
         ref: getStylesRef('carouselControls'),
         transition: 'opacity 150ms ease',
         opacity: 0,
+        margin: "0 25px",
     },
 
     carouselIndicator: {
         width: rem(4),
         height: rem(4),
         transition: 'width 250ms ease',
-
+        
         '&[data-active]': {
             width: rem(16),
         },
@@ -116,7 +118,6 @@ const CardsCarousel = () => {
 
     return (
         <Carousel
-          withIndicators
           loop
           classNames={{
             root: classes.carousel,
