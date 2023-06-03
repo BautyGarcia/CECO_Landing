@@ -48,13 +48,13 @@ const PresentacionProblema = () => {
                     <Image
                         src="https://images.unsplash.com/photo-1526951521990-620dc14c214b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
                         alt="Side Image"
-                        height={650}
+                        height={largeScreen ? 650 : 350}
                         radius="md"
                         fit="fill"
                     />
                 </div>
-                <div className={largeScreen ? "z-10 w-2/6 bg-[#FFF] rounded-md absolute translate-x-3/4 shadow-md max-h-[480px] min-w-[640px]" : "z-10 w-full bg-[#FFF] rounded-md"}>
-                    <Title order={2} className={classes.title} ta="center" mt="md">
+                <div className={largeScreen ? "z-10 w-2/6 bg-[#FFF] rounded-md absolute translate-x-3/4 shadow-md max-h-[480px] min-w-[640px]" : "z-10 w-full bg-[#FFF] rounded-md shadow-md"}>
+                    <Title order={2} className={classes.title} ta="center" mt="sm" pt={ largeScreen ? "xs" : "sm"}>
                         Basura
                     </Title>
                     <Text c="dimmed" ta="center" p="lg">
@@ -67,16 +67,16 @@ const PresentacionProblema = () => {
                     <Image
                         src="https://media.discordapp.net/attachments/1006693019535298580/1114632924747280444/luchetti_an_image_that_represents_misinformation_it_should_be_f_65682816-9b49-4b1f-a12c-25a9398c444e.png?width=1356&height=903"
                         alt="Side Image"
-                        height={650}
+                        height={largeScreen ? 650 : 350}
                         radius="md"
                         fit="cover"
                     />
                 </div>
-                <div className={largeScreen ? "z-10 w-2/6 bg-[#FFF] rounded-md absolute shadow-md max-h-[480px] min-w-[640px] order-1 mx-auto" : "z-10 w-full bg-[#FFF] rounded-md order-2"}>
-                    <Title order={2} className={classes.title} ta="center" mt="md">
+                <div className={largeScreen ? "z-10 w-2/6 bg-[#FFF] rounded-md absolute shadow-md max-h-[480px] min-w-[640px] order-1 mx-auto" : "z-10 w-full bg-[#FFF] rounded-md order-2 shadow-md"}>
+                    <Title order={2} className={classes.title} ta="center" mt="sm" pt={ largeScreen ? "xs" : "sm"}>
                         Desinformacion
                     </Title>
-                    <Text c="dimmed" ta="center" p="lg" className="">
+                    <Text c="dimmed" ta="center" p="lg">
                         Hoy en dia, nos encontramos ante un preocupante problema relacionado con la desinformación acerca del reciclaje. Lamentablemente, las instituciones educativas suelen pasar por alto la importancia de este tema crucial en su plan de estudios. Esta falta de énfasis y atención resulta en una alarmante falta de conocimiento entre la población, lo que perpetúa la problemática de la contaminación por basura. Incluso cuando los contenedores verdes están disponibles en nuestras comunidades, su simple presencia no garantiza una solución efectiva. Sin el adecuado nivel de educación y conciencia sobre el reciclaje, muchas personas no tienen la voluntad necesaria para separar sus residuos y llevar a cabo esta práctica de manera adecuada.
                     </Text>
                 </div>
@@ -86,13 +86,13 @@ const PresentacionProblema = () => {
                     <Image
                         src="https://images.unsplash.com/photo-1483213097419-365e22f0f258?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
                         alt="Side Image"
-                        height={650}
+                        height={largeScreen ? 650 : 350}
                         radius="md"
                         fit="cover"
                     />
                 </div>
-                <div className={largeScreen ? "z-10 w-2/6 bg-[#FFF] rounded-md absolute translate-x-3/4 shadow-md max-h-[480px] min-w-[640px]" : "z-10 w-full bg-[#FFF] rounded-md"}>
-                    <Title order={2} className={classes.title} ta="center" mt="md">
+                <div className={largeScreen ? "z-10 w-2/6 bg-[#FFF] rounded-md absolute translate-x-3/4 shadow-md max-h-[480px] min-w-[640px]" : "z-10 w-full bg-[#FFF] rounded-md shadow-md"}>
+                    <Title order={2} className={classes.title} ta="center" mt="sm" pt={ largeScreen ? "xs" : "sm"}>
                         Un Acercamiento Errado
                     </Title>
                     <Text c="dimmed" ta="center" p="lg" className="">
