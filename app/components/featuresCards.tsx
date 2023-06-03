@@ -92,7 +92,7 @@ const FeaturesCards = () => {
 
     return (
         <>
-            <Container size="lg" py="xl" className='my-48'>
+            <Container size="lg" py="xl" className='my-24'>
                 <Title order={2} className={classes.title} ta="center" mt="sm">
                     Los principios de funcionamiento de CECO
                 </Title>

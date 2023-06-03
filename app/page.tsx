@@ -1,8 +1,7 @@
 import Header from './components/header'
-import FeaturesCards from './components/featuresCards'
 import CardsCarousel from './components/imageCarousel'
-import Banner from './components/banner'
 import PresentacionProblema from './components/seccionProblema'
+import PresentacionSolucion from './components/seccionSolucion'
 export default function Home() {
   return (
     <div>
@@ -10,8 +9,7 @@ export default function Home() {
       <main className='w-screen h-screen'>
         <Header />
         <PresentacionProblema />
-        <Banner />
-        <FeaturesCards />
+        <PresentacionSolucion />
         <CardsCarousel />
       </main>
     </div>
