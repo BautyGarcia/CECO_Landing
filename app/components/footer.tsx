@@ -6,7 +6,7 @@ import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/
 const useStyles = createStyles((theme) => ({
   footer: {
     backgroundColor: "#ccebd6",
-    marginTop: rem(120),
+
     borderTop: `${rem(1)} solid #ccebd6`,
   },
 
