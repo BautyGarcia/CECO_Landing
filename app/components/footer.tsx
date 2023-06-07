@@ -1,7 +1,7 @@
 "use client";
 
-import { createStyles, Container, Group, ActionIcon, rem, Image } from '@mantine/core';
-import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/icons-react';
+import { createStyles, rem } from '@mantine/core';
+import Image from 'next/image';
 
 const useStyles = createStyles((theme) => ({
   footer: {
@@ -36,7 +36,7 @@ const Footer = () => {
   return (
     <div className={classes.footer}>
       <div className={classes.inner}>
-        <Image src="/trashCan.ico" width={50} height={60} fit='fill' alt='footerIcon'/>
+        <Image src="/trashCan.ico" width={50} height={60} alt='footerIcon'/>
       </div>
     </div>
   );

@@ -1,7 +1,8 @@
 "use client";
 
-import { Text, Title, Image, Space, rem, createStyles } from '@mantine/core';
+import { Text, Title, Space, rem, createStyles } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
+import Image from 'next/image';
 
 const useStyles = createStyles((theme) => ({
     title: {
@@ -31,7 +32,7 @@ const Banner = () => {
                     </div>
                     <div className={largeScreen ? "flex-shrink-0 w-30" : "mt-10 w-full"}>
                         <Image
-                            src="image.png"
+                            src="/image.png"
                             alt="Side Image"
                             width={130}
                             height={200}

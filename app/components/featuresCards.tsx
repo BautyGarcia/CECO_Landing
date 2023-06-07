@@ -8,7 +8,6 @@ import {
     SimpleGrid,
     Container,
     rem,
-    Space,
 } from '@mantine/core';
 import { IconBulb, IconBox, IconDeviceLaptop } from '@tabler/icons-react';
 
@@ -38,7 +37,7 @@ const useStyles = createStyles((theme) => ({
         fontSize: rem(34),
         fontWeight: 900,
         color: "#121212",
-        
+
         [theme.fn.smallerThan('sm')]: {
             fontSize: rem(24),
         },

@@ -1,6 +1,6 @@
 "use client";
 
-import { createStyles, Overlay, Container, Title, Button, Text, rem } from '@mantine/core';
+import { createStyles, Overlay, Container, Title, Text, rem } from '@mantine/core';
 
 const useStyles = createStyles((theme) => ({
   hero: {
