@@ -30,9 +30,10 @@ const useStyles = createStyles((theme) => ({
 
   title: {
     color: theme.white,
-    fontSize: rem(60),
+    fontSize: rem(80),
     fontWeight: 900,
     lineHeight: 1.1,
+    textShadow: `0 0 ${rem(2)} ${theme.colors.dark[9]}`,
 
     [theme.fn.smallerThan('sm')]: {
       fontSize: rem(40),

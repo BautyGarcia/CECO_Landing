@@ -28,6 +28,7 @@ const useStyles = createStyles((theme) => ({
             marginTop: theme.spacing.sm,
             marginLeft: 'auto',
             marginRight: 'auto',
+            
         },
     },
 }));
@@ -46,16 +47,16 @@ const PresentacionProblema = () => {
             </Text>
 
             <div className={largeScreen ? "mt-16 flex items-center" : "mt-16 flex-col items-center"}>
-                <div className={largeScreen ? "w-4/6 overflow-hidden" : "w-full overflow-hidden"}>
+                <div className={largeScreen ? "w-4/6 overflow-hidden" : "w-full overflow-hidden max-w-[100%]"}>
                     <Image
                         src="https://images.unsplash.com/photo-1526951521990-620dc14c214b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
                         alt="Side Image"
-                        height={largeScreen ? 750 : 500}
-                        width={largeScreen ? 700 : 350}
+                        height={largeScreen ? 750 : 350}
+                        width={largeScreen ? 750 : 1000}
                         className="rounded-lg"
                     />
                 </div>
-                <div className={largeScreen ? "z-10 w-2/6 bg-[#FFF] rounded-md absolute translate-x-3/4 shadow-md max-h-[480px] min-w-[640px]" : "z-10 w-full bg-[#FFF] rounded-md shadow-md"}>
+                <div className={largeScreen ? "z-10 w-2/6 bg-[#FFF] rounded-md absolute translate-x-2/4 shadow-md max-h-[480px] min-w-[640px]" : "z-10 w-full bg-[#FFF] rounded-md shadow-md"}>
                     <Title order={2} className={classes.title} ta="center" mt="sm" pt={ largeScreen ? "xs" : "sm"}>
                         Basura
                     </Title>
@@ -65,12 +66,12 @@ const PresentacionProblema = () => {
                 </div>
             </div>
             <div className={largeScreen ? "mt-20 flex items-center ml-auto" : "mt-10 flex-col items-center ml-auto"}>
-                <div className={largeScreen ? "w-4/6 overflow-hidden order-2 ml-auto mr-0" : "w-full overflow-hidden"}>
+                <div className={largeScreen ? "w-4/6 overflow-hidden order-2 ml-auto mr-0" : "w-full overflow-hidden max-w-[100%]"}>
                     <Image
                         src="https://media.discordapp.net/attachments/1006693019535298580/1114632924747280444/luchetti_an_image_that_represents_misinformation_it_should_be_f_65682816-9b49-4b1f-a12c-25a9398c444e.png?width=1356&height=903"
                         alt="Side Image"
                         height={largeScreen ? 750 : 350}
-                        width={largeScreen ? 700 : 350}
+                        width={largeScreen ? 750 : 1000}
                         className="rounded-lg"
                     />
                 </div>
@@ -84,16 +85,16 @@ const PresentacionProblema = () => {
                 </div>
             </div>
             <div className={largeScreen ? "mt-20 flex items-center" : "mt-10 flex-col items-center"}>
-                <div className={largeScreen ? "w-4/6 overflow-hidden" : "w-full overflow-hidden"}>
+                <div className={largeScreen ? "w-4/6 overflow-hidden" : "w-full overflow-hidden max-w-[100%]"}>
                     <Image
                         src="https://images.unsplash.com/photo-1483213097419-365e22f0f258?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
                         alt="Side Image"
                         height={largeScreen ? 750 : 350}
-                        width={largeScreen ? 700 : 350}
+                        width={largeScreen ? 750 : 1000}
                         className="rounded-lg"
                     />
                 </div>
-                <div className={largeScreen ? "z-10 w-2/6 bg-[#FFF] rounded-md absolute translate-x-3/4 shadow-md max-h-[480px] min-w-[640px]" : "z-10 w-full bg-[#FFF] rounded-md shadow-md"}>
+                <div className={largeScreen ? "z-10 w-2/6 bg-[#FFF] rounded-md absolute translate-x-2/4 shadow-md max-h-[480px] min-w-[640px]" : "z-10 w-full bg-[#FFF] rounded-md shadow-md"}>
                     <Title order={2} className={classes.title} ta="center" mt="sm" pt={ largeScreen ? "xs" : "sm"}>
                         Un Acercamiento Errado
                     </Title>

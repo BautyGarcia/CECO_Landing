@@ -36,7 +36,7 @@ const Banner = () => {
                             alt="Side Image"
                             width={130}
                             height={200}
-                            className={largeScreen ? "rounded-full ml-10" : "mx-auto"}
+                            className={largeScreen ? "ml-10" : "mx-auto"}
                         />
                     </div>
                 </div>

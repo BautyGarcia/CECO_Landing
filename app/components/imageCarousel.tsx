@@ -24,6 +24,7 @@ const useStyles = createStyles((theme) => ({
         lineHeight: 1.2,
         fontSize: rem(32),
         marginTop: theme.spacing.xs,
+        textShadow: `0 0 ${rem(2)} ${theme.colors.dark[9]}`,
     },
 
     carousel: {
