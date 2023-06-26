@@ -21,7 +21,7 @@ const mockdata = [
     {
         title: 'Pantalla interactiva',
         description:
-            'Ceco cuenta con una pantalla táctil o interactiva conectada al dispositivo. En la pantalla, se muestran opciones y categorías para que el usuario seleccione el tipo de residuo que desea desechar. La pantalla también puede mostrar información educativa, como el proceso de reciclaje y la importancia de la clasificación adecuada.',
+            'CECO cuenta con una pantalla táctil o interactiva conectada al dispositivo. En la pantalla, se muestran opciones y categorías para que el usuario seleccione el tipo de residuo que desea desechar. La pantalla también puede mostrar información educativa, como el proceso de reciclaje y la importancia de la clasificación adecuada.',
         icon: IconDeviceLaptop,
     },
     {

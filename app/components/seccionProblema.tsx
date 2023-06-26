@@ -43,7 +43,7 @@ const PresentacionProblema = () => {
             </Title>
 
             <Text c="dimmed" className={classes.description} ta="center" mt="md">
-                Esta es la triste y dura realidad a la que nos encontramos dia a dia, ignoramos, pero creemos que podemos cambiarla.
+                Esta es la triste y dura realidad a la que nos encontramos día a día, ignoramos, pero creemos que podemos cambiarla.
             </Text>
 
             <div className={largeScreen ? "mt-16 flex items-center" : "mt-16 flex-col items-center"}>
@@ -77,10 +77,10 @@ const PresentacionProblema = () => {
                 </div>
                 <div className={largeScreen ? "z-10 w-2/6 bg-[#FFF] rounded-md absolute shadow-md max-h-[480px] min-w-[640px] order-1 mx-auto" : "z-10 w-full bg-[#FFF] rounded-md order-2 shadow-md"}>
                     <Title order={2} className={classes.title} ta="center" mt="sm" pt={ largeScreen ? "xs" : "sm"}>
-                        Desinformacion
+                        Desinformación
                     </Title>
                     <Text c="dimmed" ta="center" p="lg">
-                        Hoy en dia, nos encontramos ante un preocupante problema relacionado con la desinformación acerca del reciclaje. Lamentablemente, las instituciones educativas suelen pasar por alto la importancia de este tema crucial en su plan de estudios. Esta falta de énfasis y atención resulta en una alarmante falta de conocimiento entre la población, lo que perpetúa la problemática de la contaminación por basura. Incluso cuando los contenedores verdes están disponibles en nuestras comunidades, su simple presencia no garantiza una solución efectiva. Sin el adecuado nivel de educación y conciencia sobre el reciclaje, muchas personas no tienen la voluntad necesaria para separar sus residuos y llevar a cabo esta práctica de manera adecuada.
+                        Hoy en día, nos encontramos ante un preocupante problema relacionado con la desinformación acerca del reciclaje. Lamentablemente, las instituciones educativas suelen pasar por alto la importancia de este tema crucial en su plan de estudios. Esta falta de énfasis y atención resulta en una alarmante falta de conocimiento entre la población, lo que perpetúa la problemática de la contaminación por basura. Incluso cuando los contenedores verdes están disponibles en nuestras comunidades, su simple presencia no garantiza una solución efectiva. Sin el adecuado nivel de educación y conciencia sobre el reciclaje, muchas personas no tienen la voluntad necesaria para separar sus residuos y llevar a cabo esta práctica de manera adecuada.
                     </Text>
                 </div>
             </div>

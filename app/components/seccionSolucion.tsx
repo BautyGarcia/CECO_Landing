@@ -45,7 +45,7 @@ const PresentacionSolucion = () => {
                 </Title>
 
                 <Text c="dimmed" className={classes.description} ta="center" mt="md">
-                    Despues de ver y entender al problema que nos enfrentamos. Nos pusimos manos a la obra e ideamos nuestra forma de cambiar el mundo.
+                    Después de ver y entender al problema que nos enfrentamos. Nos pusimos manos a la obra e ideamos nuestra forma de cambiar el mundo.
                 </Text>
             </Container>
             <Banner />
