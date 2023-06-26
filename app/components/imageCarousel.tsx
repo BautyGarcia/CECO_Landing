@@ -96,7 +96,7 @@ const data = [
     },
     {
         image: './cecoTicExp.jpeg',
-        title: 'Presentacion CECO en TIC Experience 2021',
+        title: 'Presentacion CECO en TIC Experience 2022',
     },
 ];
 
